@@ -51,8 +51,7 @@ const Contact: React.FC<Props> = ({ handleNext }) => {
           <br />
           <Button
             disabled={!isValid || !dirty}
-            variant="contained"
-            color="primary"
+            variant="outlined"
             type="submit"
           >
             Next

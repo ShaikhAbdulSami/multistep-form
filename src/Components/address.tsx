@@ -71,8 +71,7 @@ const Address: React.FC<Props> = ({ handleNext }) => {
           <br />
           <br />
           <Button
-            variant="contained"
-            color="primary"
+            variant="outlined"
             disabled={!isValid || !dirty}
             type="submit"
           >

@@ -68,7 +68,7 @@ export default function StepperComponent() {
             <Typography className={classes.instructions}>
               All steps completed
             </Typography>
-            <Button variant="contained" color="primary" onClick={handleReset}>
+            <Button variant="outlined"  onClick={handleReset}>
               Reset
             </Button>
           </div>

@@ -65,8 +65,7 @@ const Personal: React.FC<Props> = ({ handleNext }) => {
           <br />
           <br />
           <Button
-            variant="contained"
-            color="primary"
+            variant="outlined"
             type="submit"
             disabled={!dirty || !isValid}
           >
